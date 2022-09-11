@@ -3,7 +3,7 @@ binaries for building/checking mdbook in CI
 built with:
 
 ```
-git clone -b anchors https://github.com/ankitects/mdbook-linkcheck.git
+git clone -b anchors https://github.com/abdnh/mdbook-linkcheck.git
 cd mdbook-linkcheck && cargo build --release
 cp target/release/mdbook-linkcheck ~/out
 cd ..
